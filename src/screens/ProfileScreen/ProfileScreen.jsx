@@ -10,7 +10,7 @@ import {
     Button
 } from 'react-native';
 
-const ProfileScreen = () => {
+const ProfileScreen = ({ navigation, ...props }) => {
     return (
         <>
             <Button
